@@ -12,8 +12,8 @@ title: Personal Website Portfolio
 email: ernestlanza@gmail.com
 description: Description for my website -- editer
 author: ernestlanza
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+baseurl: ""
+url: ""
 twitter_username: ernestlanza
 github_username:
 
@@ -28,16 +28,16 @@ github_username:
 social:
   # Twitter icon & url
   - title: Follow us
-    url: https://
+    url:
   # Linkedin icon & url
   # - title: linkedin
     # url: https://www.linkedin.com/company/speedyrails-inc?trk=top_nav_home
   # Service Status icon & url
-  - title: Service Status
-    url: http://
+  - title:
+    url:
  # Control panel icon & url
   - title:
-    url: https://
+    url:
 
 
 # Exclude
