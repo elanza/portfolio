@@ -1,21 +1,52 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
-
-# Build settings
+# ----------------------- #
+#   Markdown Settings  #
+# ----------------------- #
 markdown: kramdown
+
+# ----------------------- #
+#   Site settings  #
+# ----------------------- #
+title: Speedyrails - High Performance VPS and Managed Ruby on Rails Hosting
+email: admin@speedyrails.com
+description: Speedyrails - High Performance VPS and Managed Ruby on Rails Hosting - Content Delivery Network - Content Distribution Network
+author: Speedyrails Developement Team
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+twitter_username: Speedyrails
+github_username:
+
+# ----------------------- #
+#   Permalinks  #
+# ----------------------- #
+permalink: pretty
+
+# ----------------------- #
+#   Social Network   #
+# ----------------------- #
+social:
+  # Twitter icon & url
+  - title: twitter
+    url: https://twitter.com/speedyrails
+  # Linkedin icon & url
+  - title: linkedin
+    url: https://www.linkedin.com/company/speedyrails-inc?trk=top_nav_home
+  # Control page icon & url
+  - title: Admin
+    url: https://manager.speedyrails.com/
+
+# ----------------------- #
+#   Copyright Footer
+# ----------------------- #
+data:
+  - copyright: © 2006-2014 - All Rights Reserved by Speedyrails Inc - a Canadian Corporation
+  - credit: Designed and Developed by Speedyrails Team.
+
+
+# Alt Element Images.
+alt:
+- ruby: Managed Ruby on Rails hosting
+  url:
+
+
+# Exclude
+# exclude:['exclude']

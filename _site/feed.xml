@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Personal Website Portfolio</title>
-    <description>Description for my website -- editer</description>
+    <title>Speedyrails - High Performance VPS and Managed Ruby on Rails Hosting</title>
+    <description>Speedyrails - High Performance VPS and Managed Ruby on Rails Hosting - Content Delivery Network - Content Distribution Network</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 21 Nov 2015 19:50:55 -0500</pubDate>
-    <lastBuildDate>Sat, 21 Nov 2015 19:50:55 -0500</lastBuildDate>
+    <pubDate>Sat, 21 Nov 2015 19:58:09 -0500</pubDate>
+    <lastBuildDate>Sat, 21 Nov 2015 19:58:09 -0500</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
     
       <item>
@@ -27,8 +27,8 @@
 
 </description>
         <pubDate>Sat, 21 Nov 2015 19:22:16 -0500</pubDate>
-        <link>/jekyll/update/2015/11/21/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">/jekyll/update/2015/11/21/welcome-to-jekyll.html</guid>
+        <link>/jekyll/update/2015/11/21/welcome-to-jekyll/</link>
+        <guid isPermaLink="true">/jekyll/update/2015/11/21/welcome-to-jekyll/</guid>
         
         
         <category>jekyll</category>
