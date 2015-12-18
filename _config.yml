@@ -1,22 +1,26 @@
-url: https://y7kim.github.io
-baseurl: /agency-jekyll-theme/
+url:
+baseurl: "" # the subpath of your site, e.g. /blog/
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Portfolio Web
+email: ernestlanza@gmail.com
+description: "Personal Site & Portfolio web for product description "
+
+sass:
+  sass_dir: assets/css
+  style: :nested
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary: fed136
-  secondary: fec503  
+  secondary: fec503
   secondary-dark: 333
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Ernesto Lanza
   pic: 1
-  position: Lead Designer
+  position: Lead Designer-Developer (frontend)
   social:
     - title: twitter
       url: #
@@ -24,21 +28,23 @@ people:
       url: #
     - title: stack-overflow
       url: #
-
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
     - title: linkedin
       url: #
 
-- name: Diana Petersen
+# - name: Larry Parker
+#   pic: 2
+#   position: Lead Marketer
+#   social:
+#     - title: twitter
+#       url: #
+#     - title: facebook
+#       url: #
+#     - title: linkedin
+#       url: #
+
+- name: Javier Guerrero (el mio)
   pic: 3
-  position: Lead Developer
+  position: Lead Developer (backend)
   social:
     - title: twitter
       url: #
@@ -46,24 +52,26 @@ people:
       url: #
     - title: google-plus
       url: #
+    - title: linkedin
+      url: https://www.linkedin.com/profile/view?id=AAkAAAp1X9kBZ_8-FuLZkyElqG6Uzed3zMqLkQM&authType=NAME_SEARCH&authToken=xexQ&locale=fr_FR&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A175464409%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1450455128109%2Ctas%3Ajavier%20guer
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+  # - title: twitter
+  #   url: http://twitter.com/jekyllrb
+  # - title: facebook
+  #   url:
+  # - title: stack-overflow
+  #   url: http://stackoverflow.com/questions/tagged/jekyll
+  # - title: bitbucket
+  #   url: http://bitbucket.org/jekyll
+  # - title: github
+  #   url: http://github.com/jekyll
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: Sainte Rose, Laval
+  - line: Rue des Patriotes, CA H7L 2N3
 
 # Build settings
 markdown: kramdown
