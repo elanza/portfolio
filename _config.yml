@@ -1,8 +1,8 @@
 url:
-baseurl: /losmiosagence/ # the subpath of your site, e.g. /blog/
+baseurl: /portfolio/ # the subpath of your site, e.g. /blog/
 
 # Site settings
-title: losmiosagence Web
+title: Portfolio Web
 email: ernestlanza@gmail.com
 description: "Personal Site & Portfolio web for product description "
 
