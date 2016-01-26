@@ -1,89 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Portfolio Web</title>
-    <description>Personal Site &amp; Portfolio web for product description </description>
+    <title>Portfolio Web | ernestolanza</title>
+    <description>Portfolio web</description>
     <link>/portfolio//</link>
     <atom:link href="/portfolio//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 18 Dec 2015 23:05:12 -0500</pubDate>
-    <lastBuildDate>Fri, 18 Dec 2015 23:05:12 -0500</lastBuildDate>
+    <pubDate>Tue, 26 Jan 2016 16:02:14 -0500</pubDate>
+    <lastBuildDate>Tue, 26 Jan 2016 16:02:14 -0500</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
     
       <item>
-        <title>Dreams</title>
+        <title>Portland</title>
         <description>
 </description>
-        <pubDate>Fri, 18 Jul 2014 00:00:00 -0400</pubDate>
-        <link>/portfolio//web%20development/2014/07/18/project-1/</link>
-        <guid isPermaLink="true">/portfolio//web%20development/2014/07/18/project-1/</guid>
+        <pubDate>Sat, 16 Jan 2016 00:00:00 -0500</pubDate>
+        <link>/portfolio/Site en production</link>
+        <guid isPermaLink="true">/portfolio/Site en production</guid>
         
         
-        <category>Web Development</category>
+        <category>Integration Web (en production)</category>
         
       </item>
     
       <item>
-        <title>Escape</title>
+        <title>Speedyrails</title>
         <description>
 </description>
-        <pubDate>Thu, 17 Jul 2014 00:00:00 -0400</pubDate>
-        <link>/portfolio//web%20development/2014/07/17/project-2/</link>
-        <guid isPermaLink="true">/portfolio//web%20development/2014/07/17/project-2/</guid>
+        <pubDate>Sun, 11 Oct 2015 00:00:00 -0400</pubDate>
+        <link>/portfolio/http://www.speedyrails.com/</link>
+        <guid isPermaLink="true">/portfolio/http://www.speedyrails.com/</guid>
         
         
-        <category>Web Development</category>
+        <category>Integration Web, desing web, SVG aniamtion, bootstrap, media queries.</category>
         
       </item>
     
       <item>
-        <title>Golden</title>
+        <title>Portal Autoquebec</title>
         <description>
 </description>
-        <pubDate>Wed, 16 Jul 2014 00:00:00 -0400</pubDate>
-        <link>/portfolio//web%20development/2014/07/16/project-3/</link>
-        <guid isPermaLink="true">/portfolio//web%20development/2014/07/16/project-3/</guid>
+        <pubDate>Sun, 11 Oct 2015 00:00:00 -0400</pubDate>
+        <link>/portfolio/http://www.autoquebec.com/fr/</link>
+        <guid isPermaLink="true">/portfolio/http://www.autoquebec.com/fr/</guid>
         
         
-        <category>Web Development</category>
+        <category>Integration Web</category>
         
       </item>
     
       <item>
-        <title>Treehouse</title>
+        <title>Glenmore Audi</title>
         <description>
 </description>
-        <pubDate>Tue, 15 Jul 2014 00:00:00 -0400</pubDate>
-        <link>/portfolio//web%20development/2014/07/15/project-4/</link>
-        <guid isPermaLink="true">/portfolio//web%20development/2014/07/15/project-4/</guid>
+        <pubDate>Sat, 18 Apr 2015 00:00:00 -0400</pubDate>
+        <link>/portfolio//int%C3%A9gration%20web/2015/04/18/project-1/</link>
+        <guid isPermaLink="true">/portfolio//int%C3%A9gration%20web/2015/04/18/project-1/</guid>
         
         
-        <category>Web Development</category>
-        
-      </item>
-    
-      <item>
-        <title>Round Icons</title>
-        <description>
-</description>
-        <pubDate>Tue, 15 Jul 2014 00:00:00 -0400</pubDate>
-        <link>/portfolio//web%20development/2014/07/15/project-6/</link>
-        <guid isPermaLink="true">/portfolio//web%20development/2014/07/15/project-6/</guid>
-        
-        
-        <category>Web Development</category>
-        
-      </item>
-    
-      <item>
-        <title>Startup Framework</title>
-        <description>
-</description>
-        <pubDate>Mon, 14 Jul 2014 00:00:00 -0400</pubDate>
-        <link>/portfolio//web%20development/2014/07/14/project-5/</link>
-        <guid isPermaLink="true">/portfolio//web%20development/2014/07/14/project-5/</guid>
-        
-        
-        <category>Web Development</category>
+        <category>Intégration Web</category>
         
       </item>
     

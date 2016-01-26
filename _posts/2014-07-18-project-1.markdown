@@ -1,15 +1,15 @@
 ---
-title: Dreams
-subtitle: Website Design
+title: Glenmore Audi
+subtitle: Website Intégration
 layout: default
 modal-id: 1
-date: 2014-07-18
-img: dreams.png
-thumbnail: dreams-thumbnail.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+date: 2015-04-18
+img: glenmore.png
+thumbnail: glenmore-thumbnail.png
+alt: Glenmore audi 2015
+utl: http://www.glenmoreaudi.com/en/
+project-date: Avril 2015
+client: Glenmore
+category: Intégration Web
+description: Intégration web du site Glenmore Audi pour l'entreprise Solutions Medias 360.
 ---

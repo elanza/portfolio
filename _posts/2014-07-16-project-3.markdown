@@ -1,15 +1,15 @@
 ---
-title: Golden
-subtitle: Website Design
+title: Portal Autoquebec 
+subtitle: Website Integration
 layout: default
 modal-id: 3
-date: 2014-07-16
-img: golden.png
-thumbnail: golden-thumbnail.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+date: 2015-10-11
+img: autoquebec.png
+thumbnail: autoquebec-thumbnail.png
+alt: Portal Autoquebec
+url: http://www.autoquebec.com/fr/
+project-date: Novembre 2015
+client: Portal Autoquebec
+category: Integration Web
+description: Integration web du site Portal Autoquebec pour l'entreprise Solutions Medias 360.
 ---

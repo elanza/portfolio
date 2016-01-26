@@ -1,13 +1,13 @@
 body
   overflow-x: hidden
   font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif
-  color: #fec503
+  color:rgba(0, 0, 0, 0.71)
 
 .text-muted
   color: #777
 
 .text-primary
-  color: #fed136
+  color: $primary-color
 
 p
   font-size: 14px
@@ -19,7 +19,7 @@ a
   outline: 0
   &:hover, &:focus, &:active, &.active
     outline: 0
-  color: #fed136
+  color: $primary-color
   &:hover, &:focus, &:active, &.active
     color: #333
 
@@ -27,6 +27,7 @@ h1, h2, h3, h4, h5, h6
   text-transform: uppercase
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif
   font-weight: 700
+  color: #000
 
 .img-centered
   margin: 0 auto
@@ -38,19 +39,19 @@ h1, h2, h3, h4, h5, h6
   background-color: #222
 
 .btn-primary
-  border-color: #fed136
+  border-color: $primary-color
   text-transform: uppercase
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif
   font-weight: 700
   color: #fff
-  background-color: #fed136
+  background-color: $primary-color
   &:hover, &:focus, &:active, &.active
-    border-color: #fed136
+    border-color: $primary-color
     color: #fff
     background-color: #333
 
 .open .dropdown-toggle.btn-primary
-  border-color: #fed136
+  border-color: $primary-color
   color: #fff
   background-color: #333
 
@@ -63,70 +64,70 @@ h1, h2, h3, h4, h5, h6
 
 .btn-primary
   &.disabled, &[disabled]
-    border-color: #fed136
-    background-color: #fed136
+    border-color: $primary-color
+    background-color: $primary-color
 
 fieldset[disabled] .btn-primary
-  border-color: #fed136
-  background-color: #fed136
+  border-color: $primary-color
+  background-color: $primary-color
 
 .btn-primary
   &.disabled:hover, &[disabled]:hover
-    border-color: #fed136
-    background-color: #fed136
+    border-color: $primary-color
+    background-color: $primary-color
 
 fieldset[disabled] .btn-primary:hover
-  border-color: #fed136
-  background-color: #fed136
+  border-color: $primary-color
+  background-color: $primary-color
 
 .btn-primary
   &.disabled:focus, &[disabled]:focus
-    border-color: #fed136
-    background-color: #fed136
+    border-color: $primary-color
+    background-color: $primary-color
 
 fieldset[disabled] .btn-primary:focus
-  border-color: #fed136
-  background-color: #fed136
+  border-color: $primary-color
+  background-color: $primary-color
 
 .btn-primary
   &.disabled:active, &[disabled]:active
-    border-color: #fed136
-    background-color: #fed136
+    border-color: $primary-color
+    background-color: $primary-color
 
 fieldset[disabled] .btn-primary:active
-  border-color: #fed136
-  background-color: #fed136
+  border-color: $primary-color
+  background-color: $primary-color
 
 .btn-primary
   &.disabled.active, &[disabled].active
-    border-color: #fed136
-    background-color: #fed136
+    border-color: $primary-color
+    background-color: $primary-color
 
 fieldset[disabled] .btn-primary.active
-  border-color: #fed136
-  background-color: #fed136
+  border-color: $primary-color
+  background-color: $primary-color
 
 .btn-primary .badge
-  color: #fed136
+  color: $primary-color
   background-color: #fff
 
 .btn-xl
   padding: 20px 40px
-  border-color: #fed136
+  border-color: $primary-color
   border-radius: 3px
   text-transform: uppercase
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif
   font-size: 18px
   font-weight: 700
   color: #fff
-  background-color: #fed136
+  background-color: $primary-color
   &:hover, &:focus, &:active, &.active
-    border-color: #fed136
+    border-color: $primary-color
     color: #fff
     background-color: #333
 
 .open .dropdown-toggle.btn-xl
-  border-color: #fed136
+  border-color: $primary-color
   color: #fff
   background-color: #333
 
@@ -139,51 +140,51 @@ fieldset[disabled] .btn-primary.active
 
 .btn-xl
   &.disabled, &[disabled]
-    border-color: #fed136
-    background-color: #fed136
+    border-color: $primary-color
+    background-color: $primary-color
 
 fieldset[disabled] .btn-xl
-  border-color: #fed136
-  background-color: #fed136
+  border-color: $primary-color
+  background-color: $primary-color
 
 .btn-xl
   &.disabled:hover, &[disabled]:hover
-    border-color: #fed136
-    background-color: #fed136
+    border-color: $primary-color
+    background-color: $primary-color
 
 fieldset[disabled] .btn-xl:hover
-  border-color: #fed136
-  background-color: #fed136
+  border-color: $primary-color
+  background-color: $primary-color
 
 .btn-xl
   &.disabled:focus, &[disabled]:focus
-    border-color: #fed136
-    background-color: #fed136
+    border-color: $primary-color
+    background-color: $primary-color
 
 fieldset[disabled] .btn-xl:focus
-  border-color: #fed136
-  background-color: #fed136
+  border-color: $primary-color
+  background-color: $primary-color
 
 .btn-xl
   &.disabled:active, &[disabled]:active
-    border-color: #fed136
-    background-color: #fed136
+    border-color: $primary-color
+    background-color: $primary-color
 
 fieldset[disabled] .btn-xl:active
-  border-color: #fed136
-  background-color: #fed136
+  border-color: $primary-color
+  background-color: $primary-color
 
 .btn-xl
   &.disabled.active, &[disabled].active
-    border-color: #fed136
-    background-color: #fed136
+    border-color: $primary-color
+    background-color: $primary-color
 
 fieldset[disabled] .btn-xl.active
-  border-color: #fed136
-  background-color: #fed136
+  border-color: $primary-color
+  background-color: $primary-color
 
 .btn-xl .badge
-  color: #fed136
+  color: $primary-color
   background-color: #fff
 
 .navbar-default
@@ -191,18 +192,18 @@ fieldset[disabled] .btn-xl.active
   background-color: #222
   .navbar-brand
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive
-    color: #fed136
+    color: #e74c3c
     &:hover, &:focus, &:active, &.active
       color: #333
   .navbar-collapse
     border-color: rgba(255, 255, 255, 0.02)
   .navbar-toggle
-    border-color: #fed136
-    background-color: #fed136
+    border-color: $primary-color
+    background-color: $primary-color
     .icon-bar
       background-color: #fff
     &:hover, &:focus
-      background-color: #fed136
+      background-color: $primary-color
   .nav li a
     text-transform: uppercase
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif
@@ -211,14 +212,16 @@ fieldset[disabled] .btn-xl.active
     color: #fff
     &:hover, &:focus
       outline: 0
-      color: #fed136
+      color: $primary-color
+      background-color: transparent
+
   .navbar-nav > .active > a
     border-radius: 0
     color: #fff
-    background-color: #fed136
     &:hover, &:focus
       color: #fff
-      background-color: #333
+      border-bottom: 1px solid $primary-color
+      background-color: transparent
 
 @media (min-width: 768px)
   .navbar-default
@@ -292,7 +295,7 @@ section
   h2.section-heading
     margin-top: 0
     margin-bottom: 15px
-    font-size: 40px
+    font-size: 40px    
   h3.section-subheading
     margin-bottom: 75px
     text-transform: none
@@ -326,9 +329,8 @@ section
         -webkit-transition: all ease .5s
         -moz-transition: all ease .5s
         transition: all ease .5s
-        background: rgba(254, 209, 54, 0.9)
-        /* Fallback when no plugin support
-        /*background: rgba({{ site.color.primary | hex_to_rgb | join: ',' }}, .9);
+        background: rgba(231, 76, 60, 0.73)        
+        /*background: rgba({{ site.color.primary | hex_to_rgb | join: ',' }}, .9);*/
         &:hover
           opacity: 1
         .portfolio-hover-content
@@ -416,7 +418,7 @@ section
       border-radius: 100%
       text-align: center
       color: #fff
-      background-color: #fed136
+      background-color: $primary-color
       h4
         margin-top: 12px
         font-size: 10px
@@ -440,6 +442,7 @@ section
   .timeline-heading h4
     margin-top: 0
     color: inherit
+    color: $black
     &.subheading
       text-transform: none
   .timeline-body >
@@ -534,7 +537,7 @@ section#contact
     textarea.form-control
       height: 236px
   .form-control:focus
-    border-color: #fed136
+    border-color: $primary-color
     box-shadow: none
   &::-webkit-input-placeholder, &:-moz-placeholder, &::-moz-placeholder, &:-ms-input-placeholder
     text-transform: uppercase
@@ -575,7 +578,7 @@ ul.social-buttons
     -moz-transition: all .3s
     transition: all .3s
     &:hover, &:focus, &:active
-      background-color: #fed136
+      background-color: $primary-color
 
 .btn
   &:focus, &:active, &.active, &:active:focus
@@ -596,6 +599,7 @@ ul.social-buttons
       font-size: 3em
     p
       margin-bottom: 30px
+      color: #333
       &.item-intro
         margin: 20px 0 30px
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif
@@ -618,7 +622,7 @@ ul.social-buttons
       opacity: .3
     .lr
       z-index: 1051
-      width: 1px
+      width: 2px
       height: 75px
       margin-left: 35px
       background-color: #222
@@ -627,7 +631,7 @@ ul.social-buttons
       transform: rotate(45deg)
       .rl
         z-index: 1052
-        width: 1px
+        width: 2px
         height: 75px
         background-color: #222
         -webkit-transform: rotate(90deg)
@@ -636,11 +640,11 @@ ul.social-buttons
 
 \::-moz-selection, ::selection
   text-shadow: none
-  background: #fed136
+  background: $primary-color
 
 img
   &::selection, &::-moz-selection
     background: 0 0
 
 body
-  webkit-tap-highlight-color: #fed136
+  webkit-tap-highlight-color: #545151

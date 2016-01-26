@@ -2,9 +2,9 @@ url:
 baseurl: /portfolio/ # the subpath of your site, e.g. /blog/
 
 # Site settings
-title: Portfolio Web
+title: Portfolio Web | ernestolanza
 email: ernestlanza@gmail.com
-description: "Personal Site & Portfolio web for product description "
+description: "Portfolio web"
 
 sass:
   sass_dir: assets/css
@@ -20,16 +20,16 @@ color:
 people:
 - name: Ernesto Lanza
   pic: 1
-  position: Lead Designer-Developer (frontend)
+  position: Designer-Developer (frontend)
   social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+    # - title: twitter
+    #   url: #
+    # - title: facebook
+    #   url: #
+    - title: send
+      url: mailto:ernestlanza@gmail.com
     - title: linkedin
-      url: #
+      url: https://www.linkedin.com/in/ernesto-lanza-de-armas-6007b04b?trk=nav_responsive_tab_profile
 
 # - name: Larry Parker
 #   pic: 2
@@ -42,18 +42,18 @@ people:
 #     - title: linkedin
 #       url: #
 
-- name: Javier Guerrero (el mio)
-  pic: 3
-  position: Lead Developer (backend)
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: google-plus
-      url: #
-    - title: linkedin
-      url: https://www.linkedin.com/profile/view?id=AAkAAAp1X9kBZ_8-FuLZkyElqG6Uzed3zMqLkQM&authType=NAME_SEARCH&authToken=xexQ&locale=fr_FR&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A175464409%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1450455128109%2Ctas%3Ajavier%20guer
+# - name: Javier Guerrero (el mio)
+#   pic: 3
+#   position: Lead Developer (backend)
+#   social:
+#     - title: twitter
+#       url: #
+#     - title: facebook
+#       url: #
+#     - title: google-plus
+#       url: #
+#     - title: linkedin
+#       url: https://www.linkedin.com/profile/view?id=AAkAAAp1X9kBZ_8-FuLZkyElqG6Uzed3zMqLkQM&authType=NAME_SEARCH&authToken=xexQ&locale=fr_FR&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A175464409%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1450455128109%2Ctas%3Ajavier%20guer
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:

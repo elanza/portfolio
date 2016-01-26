@@ -1,0 +1,15 @@
+---
+title: Speedyrails
+subtitle: Website Design / Integration
+layout: default
+modal-id: 4
+date: 2015-10-11
+img: speedyrails.png
+thumbnail: speedyrails-thumbnail.png
+alt: Site Web speedyrails.com
+url: http://www.speedyrails.com/
+project-date: Aout 2015
+client: Entreprise Speedyrails 
+category: Integration Web, desing web, SVG aniamtion, bootstrap, media queries.
+description: Integration web du site Speedyrails.com
+---
