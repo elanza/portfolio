@@ -168,7 +168,7 @@ fieldset[disabled] .btn-xl.active { border-color: #044160; background-color: #04
 .btn-xl .badge { color: #044160; background-color: #fff; }
 
 .navbar-default { border-color: transparent; background: rgba(0, 0, 0, 0.8); }
-.navbar-default .navbar-brand { font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive; color: #FFF; }
+.navbar-default .navbar-brand { font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive; color: #118AC7; }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:active, .navbar-default .navbar-brand.active { color: #118AC7; }
 .navbar-default .navbar-collapse { border-color: rgba(255, 255, 255, 0.02); }
 .navbar-default .navbar-toggle { background-color: #118AC7; }
