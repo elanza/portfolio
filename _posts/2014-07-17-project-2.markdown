@@ -10,6 +10,6 @@ alt: Portland Honda
 url: Site en production
 project-date: Janvier 2016
 client: Portland
-category: Integration Web (en production)
+category: Integration Web ( site en production)
 description: Integration web du site Portland Street Honda pour l'entreprise Solutions Medias 360.
 ---

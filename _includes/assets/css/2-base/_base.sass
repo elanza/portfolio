@@ -1,7 +1,6 @@
 body
   overflow-x: hidden
-  font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif
-  color:rgba(0, 0, 0, 0.71)
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
 
 .text-muted
   color: #777
@@ -10,24 +9,29 @@ body
   color: $primary-color
 
 p
-  font-size: 14px
-  line-height: 1.75
+  font-size: 16px
+  line-height: 1.8em
+  letter-spacing: -.012em
+  font-weight: 300
+  -webkit-font-smoothing: antialiased
   &.large
     font-size: 16px
 
 a
-  outline: 0
-  &:hover, &:focus, &:active, &.active
-    outline: 0
-  color: $primary-color
-  &:hover, &:focus, &:active, &.active
-    color: #333
+  outline: 0  
+  // &:hover, &:focus, &:active, &.active
+  //   outline: 0
+  //   color: $hover-color
+  // &:hover, &:focus, &:active, &.active
+  //   color: $hover-color
 
 h1, h2, h3, h4, h5, h6
   text-transform: uppercase
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif
   font-weight: 700
-  color: #000
+  line-height: 1.8em
+  letter-spacing: -.012em
+  -webkit-font-smoothing: antialiased
 
 .img-centered
   margin: 0 auto
@@ -47,8 +51,9 @@ h1, h2, h3, h4, h5, h6
   background-color: $primary-color
   &:hover, &:focus, &:active, &.active
     border-color: $primary-color
-    color: #fff
-    background-color: #333
+    color: $primary-color
+    opacity: 0.8
+    background: rgba(255, 255, 255, 0.2) !important
 
 .open .dropdown-toggle.btn-primary
   border-color: $primary-color
@@ -189,17 +194,16 @@ fieldset[disabled] .btn-xl.active
 
 .navbar-default
   border-color: transparent
-  background-color: #222
+  background: rgba(0, 0, 0, 0.8)
   .navbar-brand
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive
-    color: #e74c3c
+    color: $white    
     &:hover, &:focus, &:active, &.active
-      color: #333
+      color: $hover-color
   .navbar-collapse
     border-color: rgba(255, 255, 255, 0.02)
   .navbar-toggle
-    border-color: $primary-color
-    background-color: $primary-color
+    background-color: $hover-color
     .icon-bar
       background-color: #fff
     &:hover, &:focus
@@ -212,22 +216,20 @@ fieldset[disabled] .btn-xl.active
     color: #fff
     &:hover, &:focus
       outline: 0
-      color: $primary-color
-      background-color: transparent
+      color: $hover-color
 
   .navbar-nav > .active > a
-    border-radius: 0
+    border-radius: 0px
     color: #fff
+    background-color: $hover-color 
     &:hover, &:focus
       color: #fff
-      border-bottom: 1px solid $primary-color
-      background-color: transparent
+      background-color: $hover-color     
 
 @media (min-width: 768px)
   .navbar-default
     padding: 25px 0
     border: 0
-    background-color: transparent
     -webkit-transition: padding .3s
     -moz-transition: padding .3s
     transition: padding .3s
@@ -240,16 +242,15 @@ fieldset[disabled] .btn-xl.active
       border-radius: 3px
     &.navbar-shrink
       padding: 10px 0
-      background-color: #222
       .navbar-brand
         font-size: 1.5em
 
 header
   text-align: center
   color: #fff
-  background-attachment: scroll
+  background-attachment: fixed
   background-image: url(img/header-bg.jpg)
-  background-position: center center
+  background-position: center bottom
   background-repeat: none
   -webkit-background-size: cover
   -moz-background-size: cover
@@ -291,7 +292,7 @@ header
       line-height: 75px
 
 section
-  padding: 100px 0
+  padding: 145px 0
   h2.section-heading
     margin-top: 0
     margin-bottom: 15px
@@ -550,6 +551,7 @@ section#contact
 footer
   padding: 25px 0
   text-align: center
+  background-color: #333
   span.copyright
     text-transform: uppercase
     text-transform: none
@@ -597,6 +599,7 @@ ul.social-buttons
     h2
       margin-bottom: 15px
       font-size: 3em
+      color: $primary-color
     p
       margin-bottom: 30px
       color: #333

@@ -3,10 +3,10 @@
   <channel>
     <title>Portfolio Web | ernestolanza</title>
     <description>Portfolio web</description>
-    <link>/portfolio//</link>
-    <atom:link href="/portfolio//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 26 Jan 2016 16:02:14 -0500</pubDate>
-    <lastBuildDate>Tue, 26 Jan 2016 16:02:14 -0500</lastBuildDate>
+    <link>/portfolio/</link>
+    <atom:link href="/portfolio/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 26 Jan 2016 22:09:32 -0500</pubDate>
+    <lastBuildDate>Tue, 26 Jan 2016 22:09:32 -0500</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
     
       <item>
@@ -14,11 +14,11 @@
         <description>
 </description>
         <pubDate>Sat, 16 Jan 2016 00:00:00 -0500</pubDate>
-        <link>/portfolio/Site en production</link>
-        <guid isPermaLink="true">/portfolio/Site en production</guid>
+        <link>/portfolioSite en production</link>
+        <guid isPermaLink="true">/portfolioSite en production</guid>
         
         
-        <category>Integration Web (en production)</category>
+        <category>Integration Web ( site en production)</category>
         
       </item>
     
@@ -27,8 +27,8 @@
         <description>
 </description>
         <pubDate>Sun, 11 Oct 2015 00:00:00 -0400</pubDate>
-        <link>/portfolio/http://www.speedyrails.com/</link>
-        <guid isPermaLink="true">/portfolio/http://www.speedyrails.com/</guid>
+        <link>/portfoliohttp://www.speedyrails.com/</link>
+        <guid isPermaLink="true">/portfoliohttp://www.speedyrails.com/</guid>
         
         
         <category>Integration Web, desing web, SVG aniamtion, bootstrap, media queries.</category>
@@ -40,8 +40,8 @@
         <description>
 </description>
         <pubDate>Sun, 11 Oct 2015 00:00:00 -0400</pubDate>
-        <link>/portfolio/http://www.autoquebec.com/fr/</link>
-        <guid isPermaLink="true">/portfolio/http://www.autoquebec.com/fr/</guid>
+        <link>/portfoliohttp://www.autoquebec.com/fr/</link>
+        <guid isPermaLink="true">/portfoliohttp://www.autoquebec.com/fr/</guid>
         
         
         <category>Integration Web</category>
@@ -53,8 +53,8 @@
         <description>
 </description>
         <pubDate>Sat, 18 Apr 2015 00:00:00 -0400</pubDate>
-        <link>/portfolio//int%C3%A9gration%20web/2015/04/18/project-1/</link>
-        <guid isPermaLink="true">/portfolio//int%C3%A9gration%20web/2015/04/18/project-1/</guid>
+        <link>/portfolio/int%C3%A9gration%20web/2015/04/18/project-1/</link>
+        <guid isPermaLink="true">/portfolio/int%C3%A9gration%20web/2015/04/18/project-1/</guid>
         
         
         <category>Intégration Web</category>
