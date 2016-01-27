@@ -192,6 +192,9 @@ header .intro-text .intro-heading { margin-bottom: 25px; text-transform: upperca
 @media (min-width: 768px) { header .intro-text { padding-top: 280px; padding-bottom: 200px; }
   header .intro-text .intro-lead-in { margin-bottom: 25px; font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 40px; font-style: italic; line-height: 40px; }
   header .intro-text .intro-heading { margin-bottom: 50px; text-transform: uppercase; font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 75px; font-weight: 700; line-height: 75px; } }
+#about { background: -webkit-linear-gradient(bottom, #181a1e 0%, #3d4045 100%); background: -o-linear-gradient(bottom, #181a1e 0%, #3d4045 100%); background: linear-gradient(to top, #181a1e 0%, #3d4045 100%); }
+#about h2, #about h4, #about p.text-muted { color: #FFF; }
+
 section { padding: 145px 0; }
 section h2.section-heading { margin-top: 0; margin-bottom: 15px; font-size: 40px; }
 section h3.section-subheading { margin-bottom: 75px; text-transform: none; font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 16px; font-style: italic; font-weight: 400; }
