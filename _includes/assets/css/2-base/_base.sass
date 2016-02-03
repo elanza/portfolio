@@ -18,7 +18,7 @@ p
     font-size: 16px
 
 a
-  outline: 0  
+  outline: 0
   // &:hover, &:focus, &:active, &.active
   //   outline: 0
   //   color: $hover-color
@@ -196,10 +196,13 @@ fieldset[disabled] .btn-xl.active
   border-color: transparent
   background: rgba(0, 0, 0, 0.8)
   .navbar-brand
+    margin-top: -30px
     font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive
-    color: $hover-color   
+    color: $hover-color
     &:hover, &:focus, &:active, &.active
       color: $hover-color
+    img.logo
+      width: 65px
   .navbar-collapse
     border-color: rgba(255, 255, 255, 0.02)
   .navbar-toggle
@@ -221,10 +224,10 @@ fieldset[disabled] .btn-xl.active
   .navbar-nav > .active > a
     border-radius: 0px
     color: #fff
-    background-color: $hover-color 
+    background-color: $hover-color
     &:hover, &:focus
       color: #fff
-      background-color: $hover-color     
+      background-color: $hover-color
 
 @media (min-width: 768px)
   .navbar-default
@@ -250,7 +253,7 @@ header
   color: #fff
   background-attachment: fixed
   background-image: url(img/header-bg.jpg)
-  background-position: center bottom
+  background-position: center top
   background-repeat: none
   -webkit-background-size: cover
   -moz-background-size: cover
@@ -291,19 +294,12 @@ header
       font-weight: 700
       line-height: 75px
 
-#about
-  background: -webkit-linear-gradient(bottom, #181a1e 0%, #3d4045 100%)
-  background: -o-linear-gradient(bottom, #181a1e 0%, #3d4045 100%)
-  background: linear-gradient(to top, #181a1e 0%, #3d4045 100%)
-  h2,h4,p.text-muted
-    color: $white
-  
 section
   padding: 145px 0
   h2.section-heading
     margin-top: 0
     margin-bottom: 15px
-    font-size: 40px    
+    font-size: 40px
   h3.section-subheading
     margin-bottom: 75px
     text-transform: none
@@ -337,7 +333,7 @@ section
         -webkit-transition: all ease .5s
         -moz-transition: all ease .5s
         transition: all ease .5s
-        background: rgba(231, 76, 60, 0.73)        
+        background: rgba(231, 76, 60, 0.73)
         /*background: rgba({{ site.color.primary | hex_to_rgb | join: ',' }}, .9);*/
         &:hover
           opacity: 1

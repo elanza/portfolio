@@ -3,10 +3,10 @@
   <channel>
     <title>Portfolio Web | ernestolanza</title>
     <description>Portfolio web</description>
-    <link>/portfolio/</link>
-    <atom:link href="/portfolio/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 29 Jan 2016 07:06:15 -0500</pubDate>
-    <lastBuildDate>Fri, 29 Jan 2016 07:06:15 -0500</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 03 Feb 2016 00:26:34 -0500</pubDate>
+    <lastBuildDate>Wed, 03 Feb 2016 00:26:34 -0500</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
     
       <item>
@@ -14,8 +14,8 @@
         <description>
 </description>
         <pubDate>Sat, 16 Jan 2016 00:00:00 -0500</pubDate>
-        <link>/portfolioSite en production</link>
-        <guid isPermaLink="true">/portfolioSite en production</guid>
+        <link>Site en production</link>
+        <guid isPermaLink="true">Site en production</guid>
         
         
         <category>Integration Web ( site en production)</category>
@@ -27,8 +27,8 @@
         <description>
 </description>
         <pubDate>Sun, 11 Oct 2015 00:00:00 -0400</pubDate>
-        <link>/portfoliohttp://www.speedyrails.com/</link>
-        <guid isPermaLink="true">/portfoliohttp://www.speedyrails.com/</guid>
+        <link>http://www.speedyrails.com/</link>
+        <guid isPermaLink="true">http://www.speedyrails.com/</guid>
         
         
         <category>Integration Web, desing web, SVG aniamtion, bootstrap, media queries.</category>
@@ -40,8 +40,8 @@
         <description>
 </description>
         <pubDate>Sun, 11 Oct 2015 00:00:00 -0400</pubDate>
-        <link>/portfoliohttp://www.autoquebec.com/fr/</link>
-        <guid isPermaLink="true">/portfoliohttp://www.autoquebec.com/fr/</guid>
+        <link>http://www.autoquebec.com/fr/</link>
+        <guid isPermaLink="true">http://www.autoquebec.com/fr/</guid>
         
         
         <category>Integration Web</category>
@@ -53,8 +53,8 @@
         <description>
 </description>
         <pubDate>Sat, 18 Apr 2015 00:00:00 -0400</pubDate>
-        <link>/portfolio/int%C3%A9gration%20web/2015/04/18/project-1/</link>
-        <guid isPermaLink="true">/portfolio/int%C3%A9gration%20web/2015/04/18/project-1/</guid>
+        <link>/int%C3%A9gration%20web/2015/04/18/project-1/</link>
+        <guid isPermaLink="true">/int%C3%A9gration%20web/2015/04/18/project-1/</guid>
         
         
         <category>Intégration Web</category>

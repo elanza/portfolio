@@ -1,5 +1,5 @@
 url:
-baseurl: /portfolio # the subpath of your site, e.g. /blog/
+baseurl: # the subpath of your site, e.g. /blog/
 
 # Site settings
 title: Portfolio Web | ernestolanza
@@ -76,4 +76,3 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
-
