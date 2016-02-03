@@ -291,12 +291,15 @@ img::selection, img::-moz-selection { background: 0 0; }
 
 body { webkit-tap-highlight-color: #545151; }
 
-.navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { background-color: transparent; }
+.navbar-default { background-color: transparent; }
 
-.navbar-default .navbar-nav > .active > a { border-radius: 0px; background-color: rgba(205, 233, 238, 0.34); }
+.navbar-default .nav li a:hover, .navbar-default .nav li a { color: #e74c3c; }
 
-#about { background: -webkit-linear-gradient(bottom, #181a1e 0%, #3d4045 100%); background: -o-linear-gradient(bottom, #181a1e 0%, #3d4045 100%); background: linear-gradient(to top, #181a1e 0%, #3d4045 100%); }
-#about h2, #about h4, #about p.text-muted { color: #FFF; }
+.navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus { background-color: #e76f00; }
+
+.navbar-default .navbar-nav > .active > a { border-radius: 0px; background-color: #e76f00; }
+
+#about { background: -webkit-linear-gradient(to top, #ecf0f1 0%, #cccccc 100%); background: -o-linear-gradient(to top, #ecf0f1 0%, #cccccc 100%); background: linear-gradient(to top, #ecf0f1 0%, #cccccc 100%); }
 
 .icons-tech { display: inline-block; float: left; margin: 10px; }
 .icons-tech [class*="icon-"] { font-size: 30px; }
