@@ -1,5 +1,5 @@
 ---
-title: Portal Autoquebec 
+title: Portal Autoquebec
 subtitle: Website Integration
 layout: default
 modal-id: 3
@@ -12,4 +12,6 @@ project-date: Novembre 2015
 client: Portal Autoquebec
 category: Integration Web
 description: Integration web du site Portal Autoquebec pour l'entreprise Solutions Medias 360.
+img-class: autoquebec
+thumbnail-parallax: autoquebec-thumbnail-parallax.png
 ---

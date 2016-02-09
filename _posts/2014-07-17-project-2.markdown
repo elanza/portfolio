@@ -12,4 +12,6 @@ project-date: Janvier 2016
 client: Portland
 category: Integration Web ( site en production)
 description: Integration web du site Portland Street Honda pour l'entreprise Solutions Medias 360.
+img-class: portland
+thumbnail-parallax: portland-thumbnail-parallax.png
 ---

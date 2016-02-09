@@ -59,6 +59,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/_includes\/assets\/css\/1-tools\/animate\/animate.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/assets\/css\/1-tools\/animate\/animate.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_includes\/assets\/css\/1-tools\/bootstrap\/bootstrap.min.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -188,39 +197,6 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": false
-		},
-	"\/_includes\/assets\/js\/functions.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_includes\/assets\/js\/functions.js",
-		"outputAbbreviatedPath": "\/_includes\/assets\/js\/min\/functions-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/_includes\/assets\/js\/jquery-2.1.1.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_includes\/assets\/js\/jquery-2.1.1.min.js",
-		"outputAbbreviatedPath": "\/_includes\/assets\/js\/min\/jquery-2.1.1.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/_includes\/assets\/js\/min\/functions-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_includes\/assets\/js\/min\/functions-min.js",
-		"outputAbbreviatedPath": "\/_includes\/assets\/js\/min\/min\/functions-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
 		},
 	"\/_includes\/clients.html": {
 		"fileType": 8192,
@@ -438,6 +414,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_includes\/portfolio_grid-parallax.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/portfolio_grid-parallax.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_includes\/portfolio_grid.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -519,17 +504,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/img\/1header-bg.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 511919,
-		"inputAbbreviatedPath": "\/_site\/img\/1header-bg.jpg",
-		"outputAbbreviatedPath": "\/_site\/img\/1header-bg.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/_site\/img\/about\/1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -574,11 +548,22 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/bgsection.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4278,
+		"inputAbbreviatedPath": "\/_site\/img\/bgsection.png",
+		"outputAbbreviatedPath": "\/_site\/img\/bgsection.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/header-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 8.10724e+06,
+		"initialSize": 511919,
 		"inputAbbreviatedPath": "\/_site\/img\/header-bg.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/header-bg.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -592,6 +577,17 @@
 		"initialSize": 364038,
 		"inputAbbreviatedPath": "\/_site\/img\/map-image.png",
 		"outputAbbreviatedPath": "\/_site\/img\/map-image.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/portfolio\/autoquebec-thumbnail-parallax.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.66091e+06,
+		"inputAbbreviatedPath": "\/_site\/img\/portfolio\/autoquebec-thumbnail-parallax.png",
+		"outputAbbreviatedPath": "\/_site\/img\/portfolio\/autoquebec-thumbnail-parallax.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -618,6 +614,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/portfolio\/glenmore-thumbnail-parallax.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 702114,
+		"inputAbbreviatedPath": "\/_site\/img\/portfolio\/glenmore-thumbnail-parallax.png",
+		"outputAbbreviatedPath": "\/_site\/img\/portfolio\/glenmore-thumbnail-parallax.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/portfolio\/glenmore-thumbnail.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -640,6 +647,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/portfolio\/portland-thumbnail-parallax.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.41988e+06,
+		"inputAbbreviatedPath": "\/_site\/img\/portfolio\/portland-thumbnail-parallax.png",
+		"outputAbbreviatedPath": "\/_site\/img\/portfolio\/portland-thumbnail-parallax.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/portfolio\/portland-thumbnail.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -658,6 +676,17 @@
 		"initialSize": 534578,
 		"inputAbbreviatedPath": "\/_site\/img\/portfolio\/portland.png",
 		"outputAbbreviatedPath": "\/_site\/img\/portfolio\/portland.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/portfolio\/speedyrails-thumbnail-parallax.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.9021e+06,
+		"inputAbbreviatedPath": "\/_site\/img\/portfolio\/speedyrails-thumbnail-parallax.png",
+		"outputAbbreviatedPath": "\/_site\/img\/portfolio\/speedyrails-thumbnail-parallax.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -702,6 +731,17 @@
 		"initialSize": 35687,
 		"inputAbbreviatedPath": "\/_site\/img\/team\/3.jpg",
 		"outputAbbreviatedPath": "\/_site\/img\/team\/3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/img\/texture.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2187,
+		"inputAbbreviatedPath": "\/_site\/img\/texture.png",
+		"outputAbbreviatedPath": "\/_site\/img\/texture.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -751,17 +791,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/js\/agency.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/js\/agency.js",
-		"outputAbbreviatedPath": "\/_site\/js\/min\/agency-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/_site\/js\/bootstrap.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -784,17 +813,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/_site\/js\/cbpAnimatedHeader.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/js\/cbpAnimatedHeader.js",
-		"outputAbbreviatedPath": "\/_site\/js\/min\/cbpAnimatedHeader-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/_site\/js\/cbpAnimatedHeader.min.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -806,23 +824,23 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/_site\/js\/classie.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/js\/classie.js",
-		"outputAbbreviatedPath": "\/_site\/js\/min\/classie-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/_site\/js\/contact_me.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/js\/contact_me.js",
 		"outputAbbreviatedPath": "\/_site\/js\/min\/contact_me-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/js\/functions.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/js\/functions.js",
+		"outputAbbreviatedPath": "\/_site\/js\/min\/functions-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -863,10 +881,21 @@
 		},
 	"\/_site\/js\/min\/agency-min.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/js\/min\/agency-min.js",
 		"outputAbbreviatedPath": "\/_site\/js\/min\/min\/agency-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/js\/min\/functions-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/js\/min\/functions-min.js",
+		"outputAbbreviatedPath": "\/_site\/js\/min\/min\/functions-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -926,17 +955,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/img\/1header-bg.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 768689,
-		"inputAbbreviatedPath": "\/img\/1header-bg.jpg",
-		"outputAbbreviatedPath": "\/img\/1header-bg.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/about\/1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -981,11 +999,22 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/bgsection.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4278,
+		"inputAbbreviatedPath": "\/img\/bgsection.png",
+		"outputAbbreviatedPath": "\/img\/bgsection.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/header-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 8.10724e+06,
+		"initialSize": 768689,
 		"inputAbbreviatedPath": "\/img\/header-bg.jpg",
 		"outputAbbreviatedPath": "\/img\/header-bg.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -999,6 +1028,17 @@
 		"initialSize": 364038,
 		"inputAbbreviatedPath": "\/img\/map-image.png",
 		"outputAbbreviatedPath": "\/img\/map-image.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/portfolio\/autoquebec-thumbnail-parallax.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.50838e+06,
+		"inputAbbreviatedPath": "\/img\/portfolio\/autoquebec-thumbnail-parallax.png",
+		"outputAbbreviatedPath": "\/img\/portfolio\/autoquebec-thumbnail-parallax.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1025,6 +1065,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/portfolio\/glenmore-thumbnail-parallax.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.84504e+06,
+		"inputAbbreviatedPath": "\/img\/portfolio\/glenmore-thumbnail-parallax.png",
+		"outputAbbreviatedPath": "\/img\/portfolio\/glenmore-thumbnail-parallax.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/portfolio\/glenmore-thumbnail.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1047,6 +1098,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/portfolio\/portland-thumbnail-parallax.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3.96205e+06,
+		"inputAbbreviatedPath": "\/img\/portfolio\/portland-thumbnail-parallax.png",
+		"outputAbbreviatedPath": "\/img\/portfolio\/portland-thumbnail-parallax.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/portfolio\/portland-thumbnail.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1065,6 +1127,17 @@
 		"initialSize": 535806,
 		"inputAbbreviatedPath": "\/img\/portfolio\/portland.png",
 		"outputAbbreviatedPath": "\/img\/portfolio\/portland.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/portfolio\/speedyrails-thumbnail-parallax.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4.1246e+06,
+		"inputAbbreviatedPath": "\/img\/portfolio\/speedyrails-thumbnail-parallax.png",
+		"outputAbbreviatedPath": "\/img\/portfolio\/speedyrails-thumbnail-parallax.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1113,6 +1186,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/texture.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2187,
+		"inputAbbreviatedPath": "\/img\/texture.png",
+		"outputAbbreviatedPath": "\/img\/texture.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1121,17 +1205,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/js\/agency.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/agency.js",
-		"outputAbbreviatedPath": "\/js\/min\/agency-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
 		},
 	"\/js\/bootstrap.js": {
 		"fileType": 64,
@@ -1155,17 +1228,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/js\/cbpAnimatedHeader.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/cbpAnimatedHeader.js",
-		"outputAbbreviatedPath": "\/js\/min\/cbpAnimatedHeader-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/js\/cbpAnimatedHeader.min.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -1177,23 +1239,23 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/js\/classie.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/classie.js",
-		"outputAbbreviatedPath": "\/js\/min\/classie-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/js\/contact_me.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/contact_me.js",
 		"outputAbbreviatedPath": "\/js\/min\/contact_me-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/functions.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/functions.js",
+		"outputAbbreviatedPath": "\/js\/min\/functions-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -1238,6 +1300,17 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/min\/agency-min.js",
 		"outputAbbreviatedPath": "\/js\/min\/min\/agency-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/min\/functions-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/functions-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/functions-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

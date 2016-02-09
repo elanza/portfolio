@@ -17,9 +17,11 @@
                         <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                         <h3>{{ post.description }}</h3>
                         <div class="list-inline item-details">
-                            <p class="date-info">Date: {{ post.project-date }}</p>
-                            <p class="date-info">Client: {{ post.client }}</p>
-                            <p class="date-info">Service: {{ post.category }}</p>                            
+                            <p class="date-info">
+                              Date: {{ post.project-date }} <br>
+                              Client: {{ post.client }} <br>
+                              Service: {{ post.category }} <br>
+                            </p>
                         </div>
                         <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                     </div>

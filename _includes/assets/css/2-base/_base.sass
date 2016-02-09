@@ -1,6 +1,9 @@
 body
   overflow-x: hidden
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+  // font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+  font-family: 'Lato', 'Open Sans', sans-serif
+  background-image: url(img/texture.png)
+  background-repeat: repeat
 
 .text-muted
   color: #777
@@ -9,16 +12,20 @@ body
   color: $primary-color
 
 p
-  font-size: 16px
+  font-size: 17px
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
   line-height: 1.8em
   letter-spacing: -.012em
   font-weight: 300
   -webkit-font-smoothing: antialiased
   &.large
-    font-size: 16px
+    font-size: 18px
 
 a
   outline: 0
+  &:hover
+    -webkit-animation-name: bounceInDown
+    animation-name: bounceInDown
   // &:hover, &:focus, &:active, &.active
   //   outline: 0
   //   color: $hover-color
@@ -27,7 +34,7 @@ a
 
 h1, h2, h3, h4, h5, h6
   text-transform: uppercase
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif
+  font-family: 'Lato', 'Open Sans', sans-serif
   font-weight: 700
   line-height: 1.8em
   letter-spacing: -.012em
@@ -36,12 +43,12 @@ h1, h2, h3, h4, h5, h6
 .img-centered
   margin: 0 auto
 
-.bg-light-gray
-  background-color: #f7f7f7
-
 .bg-darkest-gray
   background-color: #222
-
+.btn
+  &:hover
+    -webkit-animation-name: bounceInDown
+    animation-name: bounceInDown
 .btn-primary
   border-color: $primary-color
   text-transform: uppercase
@@ -121,7 +128,6 @@ fieldset[disabled] .btn-primary.active
   border-color: $primary-color
   border-radius: 3px
   text-transform: uppercase
-  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif
   font-size: 18px
   font-weight: 700
   color: #fff
@@ -194,10 +200,7 @@ fieldset[disabled] .btn-xl.active
 
 .navbar-default
   border-color: transparent
-  background: rgba(0, 0, 0, 0.8)
   .navbar-brand
-    margin-top: -30px
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive
     color: $hover-color
     &:hover, &:focus, &:active, &.active
       color: $hover-color
@@ -206,14 +209,11 @@ fieldset[disabled] .btn-xl.active
   .navbar-collapse
     border-color: rgba(255, 255, 255, 0.02)
   .navbar-toggle
-    background-color: $hover-color
     .icon-bar
       background-color: #fff
     &:hover, &:focus
       background-color: $primary-color
   .nav li a
-    text-transform: uppercase
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif
     font-weight: 400
     letter-spacing: 1px
     color: #fff
@@ -231,12 +231,13 @@ fieldset[disabled] .btn-xl.active
 
 @media (min-width: 768px)
   .navbar-default
-    padding: 25px 0
+    padding: 0px
     border: 0
     -webkit-transition: padding .3s
     -moz-transition: padding .3s
     transition: padding .3s
     .navbar-brand
+      font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive
       font-size: 2em
       -webkit-transition: all .3s
       -moz-transition: all .3s
@@ -245,33 +246,50 @@ fieldset[disabled] .btn-xl.active
       border-radius: 3px
     &.navbar-shrink
       padding: 10px 0
+      background-color: white
+      box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.22)
+      -moz-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.22)
+      -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.22)
+      ul
+        li
+          a
+            color: gray
       .navbar-brand
         font-size: 1.5em
 
 header
+  width: 100%
+  padding: 0 7%
+  margin: 0
+  max-width: none
+  min-height: 100vh
+  background-color: #2c3e50
+  //
   text-align: center
   color: #fff
   background-attachment: fixed
   background-image: url(img/header-bg.jpg)
   background-position: center top
-  background-repeat: none
+  background-repeat: no-repeat
   -webkit-background-size: cover
   -moz-background-size: cover
   background-size: cover
   -o-background-size: cover
-  .intro-text
-    padding-top: 100px
-    padding-bottom: 50px
-    .intro-lead-in
+  .block-intro
+    position: absolute
+    top: 50%
+    margin-left: 0px
+    margin-right: 0px
+    left: 0
+    right: 0
+    .h1
       margin-bottom: 25px
-      font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif
       font-size: 22px
       font-style: italic
       line-height: 22px
     .intro-heading
       margin-bottom: 25px
       text-transform: uppercase
-      font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif
       font-size: 50px
       font-weight: 700
       line-height: 50px
@@ -282,7 +300,6 @@ header
     padding-bottom: 200px
     .intro-lead-in
       margin-bottom: 25px
-      font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif
       font-size: 40px
       font-style: italic
       line-height: 40px
@@ -295,7 +312,17 @@ header
       line-height: 75px
 
 section
-  padding: 145px 0
+  width: 100%
+  padding: 0 7%
+  margin: 0
+  max-width: none
+  background:
+    image: url(img/bgsection.png)
+    position: top center
+    repeat: no-repeat
+
+  min-height: 100vh
+  // padding: 145px 0
   h2.section-heading
     margin-top: 0
     margin-bottom: 15px
@@ -303,7 +330,6 @@ section
   h3.section-subheading
     margin-bottom: 75px
     text-transform: none
-    font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif
     font-size: 16px
     font-style: italic
     font-weight: 400
@@ -315,61 +341,6 @@ section
 .service-heading
   margin: 15px 0
   text-transform: none
-
-#portfolio
-  .portfolio-item
-    right: 0
-    margin: 0 0 15px
-    .portfolio-link
-      display: block
-      position: relative
-      margin: 0 auto
-      max-width: 400px
-      .portfolio-hover
-        position: absolute
-        width: 100%
-        height: 100%
-        opacity: 0
-        -webkit-transition: all ease .5s
-        -moz-transition: all ease .5s
-        transition: all ease .5s
-        background: rgba(231, 76, 60, 0.73)
-        /*background: rgba({{ site.color.primary | hex_to_rgb | join: ',' }}, .9);*/
-        &:hover
-          opacity: 1
-        .portfolio-hover-content
-          position: absolute
-          top: 50%
-          width: 100%
-          height: 20px
-          margin-top: -12px
-          text-align: center
-          font-size: 20px
-          color: #fff
-          i
-            margin-top: -12px
-          h3, h4
-            margin: 0
-    .portfolio-caption
-      margin: 0 auto
-      padding: 25px
-      max-width: 400px
-      text-align: center
-      background-color: #fff
-      h4
-        margin: 0
-        text-transform: none
-      p
-        margin: 0
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif
-        font-size: 16px
-        font-style: italic
-  *
-    z-index: 2
-
-@media (min-width: 767px)
-  #portfolio .portfolio-item
-    margin: 0 0 30px
 
 .timeline
   position: relative
@@ -545,7 +516,6 @@ section#contact
     box-shadow: none
   &::-webkit-input-placeholder, &:-moz-placeholder, &::-moz-placeholder, &:-ms-input-placeholder
     text-transform: uppercase
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif
     font-weight: 700
     color: #bbb
   .text-danger
@@ -558,13 +528,11 @@ footer
   span.copyright
     text-transform: uppercase
     text-transform: none
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif
     line-height: 40px
   ul.quicklinks
     margin-bottom: 0
     text-transform: uppercase
     text-transform: none
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif
     line-height: 40px
 
 ul.social-buttons
@@ -608,7 +576,6 @@ ul.social-buttons
       color: #333
       &.item-intro
         margin: 20px 0 30px
-        font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif
         font-size: 16px
         font-style: italic
     ul.list-inline

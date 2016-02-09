@@ -9,7 +9,9 @@ thumbnail: speedyrails-thumbnail.png
 alt: Site Web speedyrails.com
 url: http://www.speedyrails.com/
 project-date: Aout 2015
-client: Entreprise Speedyrails 
+client: Entreprise Speedyrails
 category: Integration Web, desing web, SVG aniamtion, bootstrap, media queries.
 description: Integration web du site Speedyrails.com
+img-class: speedyrails
+thumbnail-parallax: speedyrails-thumbnail-parallax.png
 ---
