@@ -3285,10 +3285,8 @@ h1, h2, h3, h4, h5, h6 { text-transform: uppercase; font-family: "Lato", "Open S
 
 .bg-darkest-gray { background-color: #222; }
 
-.btn:hover { -webkit-animation-name: bounceInDown; animation-name: bounceInDown; }
-
-.btn-primary { border-color: #e74c3c; text-transform: uppercase; font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; color: #fff; background-color: #e74c3c; }
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active { border-color: #e74c3c; color: #e74c3c; opacity: 0.8; background: rgba(255, 255, 255, 0.2) !important; }
+.btn-primary { border-color: #e74c3c; text-transform: uppercase; font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 700; color: #fff; background-color: #e74c3c; transition: all 0.3s ease 0s; }
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active { border-color: #e74c3c; color: #e74c3c; opacity: 0.8; background: rgba(12, 14, 15, 0.79) !important; }
 
 .open .dropdown-toggle.btn-primary { border-color: #e74c3c; color: #fff; background-color: #333; }
 
@@ -3367,8 +3365,8 @@ fieldset[disabled] .btn-xl.active { border-color: #e74c3c; background-color: #e7
   .navbar-default.navbar-shrink { padding: 10px 0; background-color: white; box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.22); -moz-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.22); -webkit-box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.22); }
   .navbar-default.navbar-shrink ul li a { color: gray; }
   .navbar-default.navbar-shrink .navbar-brand { font-size: 1.5em; } }
-header { width: 100%; padding: 0 7%; margin: 0; max-width: none; min-height: 100vh; background-color: #2c3e50; text-align: center; color: #fff; background-attachment: fixed; background-image: url(img/header-bg.jpg); background-position: center top; background-repeat: no-repeat; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover; }
-header .block-intro { position: absolute; top: 50%; margin-left: 0px; margin-right: 0px; left: 0; right: 0; }
+header { width: 100%; padding: 0 7%; margin: 0; max-width: none; min-height: 100vh; background-color: #2c3e50; text-align: center; color: #fff; background-attachment: fixed; background-image: url(img/header-bg.png); background-position: center top; background-repeat: no-repeat; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover; }
+header .block-intro { z-index: 5; position: absolute; top: 50%; margin-left: 0px; margin-right: 0px; left: 0; right: 0; }
 header .block-intro .h1 { margin-bottom: 25px; font-size: 22px; font-style: italic; line-height: 22px; }
 header .block-intro .intro-heading { margin-bottom: 25px; text-transform: uppercase; font-size: 50px; font-weight: 700; line-height: 50px; }
 
@@ -3485,4 +3483,7 @@ body { webkit-tap-highlight-color: #545151; }
 #portfolio * { z-index: 2; }
 
 @media (min-width: 767px) { #portfolio .portfolio-item { margin: 0 0 30px; } }
+header .idea-animation { max-width: 200px; position: absolute; right: 100px; top: 30%; }
+header .globe-animation { max-width: 200px; position: absolute; top: 50%; right: 50%; }
+header .notes-animation { max-width: 200px; top: 30%; position: absolute; left: 10%; }
 

@@ -47,8 +47,7 @@ h1, h2, h3, h4, h5, h6
   background-color: #222
 .btn
   &:hover
-    -webkit-animation-name: bounceInDown
-    animation-name: bounceInDown
+
 .btn-primary
   border-color: $primary-color
   text-transform: uppercase
@@ -56,11 +55,14 @@ h1, h2, h3, h4, h5, h6
   font-weight: 700
   color: #fff
   background-color: $primary-color
+  transition: all 0.3s ease 0s
+  &:hover
+
   &:hover, &:focus, &:active, &.active
     border-color: $primary-color
     color: $primary-color
     opacity: 0.8
-    background: rgba(255, 255, 255, 0.2) !important
+    background: rgba(12, 14, 15, 0.79) !important
 
 .open .dropdown-toggle.btn-primary
   border-color: $primary-color
@@ -268,7 +270,7 @@ header
   text-align: center
   color: #fff
   background-attachment: fixed
-  background-image: url(img/header-bg.jpg)
+  background-image: url(img/header-bg.png)
   background-position: center top
   background-repeat: no-repeat
   -webkit-background-size: cover
@@ -276,6 +278,7 @@ header
   background-size: cover
   -o-background-size: cover
   .block-intro
+    z-index: 5
     position: absolute
     top: 50%
     margin-left: 0px
