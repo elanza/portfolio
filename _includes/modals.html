@@ -2,12 +2,6 @@
 {% for post in site.posts %}
 <div class="portfolio-modal modal fade" id="portfolioModal{{ post.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-                <div class="rl">
-                </div>
-            </div>
-        </div>
         <div class="container">
             <div class="row">
                 <div class="col-lg-11 col-lg-offset-1">
@@ -17,13 +11,15 @@
                         <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
                         <h3>{{ post.description }}</h3>
                         <div class="list-inline item-details">
-                            <p class="date-info">
-                              <strong>Date:</strong> {{ post.project-date }} <br>
-                              <strong>Client:</strong> {{ post.client }} <br>
-                              <strong>Service:</strong> {{ post.category }} <br>
+                            <p class="date-info"><b>Date:</b> {{ post.project-date }} - <b>Client:</b> {{ post.client }} - <b>Service:</b> {{ post.category }}
                             </p>
+                        </div>                        
+                        <div class="close-modal" data-dismiss="modal">
+                            <div class="lr">
+                                <div class="rl">
+                                </div>
+                            </div>
                         </div>
-                        <button type="button" class="btn btn-primary btn-xl hvr-bounce-to-right" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                     </div>
                 </div>
             </div>
