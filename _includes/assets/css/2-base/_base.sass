@@ -62,8 +62,6 @@ h1, h2, h3, h4, h5, h6
     border-color: $primary-color
     color: $primary-color
     opacity: 0.8
-    background: rgba(12, 14, 15, 0.79) !important
-
 .open .dropdown-toggle.btn-primary
   border-color: $primary-color
   color: #fff
@@ -228,8 +226,8 @@ fieldset[disabled] .btn-xl.active
     color: #fff
     background-color: $hover-color
     &:hover, &:focus
-      color: #fff
-      background-color: $hover-color
+      color: $hover-color
+
 
 @media (min-width: 768px)
   .navbar-default
@@ -271,12 +269,12 @@ header
   color: #fff
   background-attachment: fixed
   background-image: url(img/header-bg.png)
-  background-position: center top
+  background-position: center center
   background-repeat: no-repeat
-  -webkit-background-size: cover
-  -moz-background-size: cover
-  background-size: cover
-  -o-background-size: cover
+  -webkit-background-size: contain
+  -moz-background-size: contain
+  background-size: contain
+  -o-background-size: contain
   .block-intro
     z-index: 5
     position: absolute
@@ -285,22 +283,11 @@ header
     margin-right: 0px
     left: 0
     right: 0
-    .h1
-      margin-bottom: 25px
-      font-size: 22px
-      font-style: italic
+    h1
+      font-size: 3em
       line-height: 22px
-    .intro-heading
-      margin-bottom: 25px
-      text-transform: uppercase
-      font-size: 50px
-      font-weight: 700
-      line-height: 50px
-
 @media (min-width: 768px)
   header .intro-text
-    padding-top: 280px
-    padding-bottom: 200px
     .intro-lead-in
       margin-bottom: 25px
       font-size: 40px
@@ -527,7 +514,7 @@ section#contact
 footer
   padding: 25px 0
   text-align: center
-  background-color: #333
+  background-color: $footer
   span.copyright
     text-transform: uppercase
     text-transform: none
@@ -624,3 +611,7 @@ img
 
 body
   webkit-tap-highlight-color: #545151
+
+.modal-body
+  h1,h2,h3,h4,h5,h6
+    text-transform: none

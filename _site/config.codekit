@@ -59,11 +59,11 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/_includes\/assets\/css\/1-tools\/animate\/animate.css": {
+	"\/_includes\/assets\/css\/1-tools\/animation-css\/animation-css.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_includes\/assets\/css\/1-tools\/animate\/animate.css",
+		"inputAbbreviatedPath": "\/_includes\/assets\/css\/1-tools\/animation-css\/animation-css.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -333,11 +333,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_includes\/icon-js.html": {
+	"\/_includes\/icon-JS.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_includes\/icon-js.html",
+		"inputAbbreviatedPath": "\/_includes\/icon-JS.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
