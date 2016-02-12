@@ -285,7 +285,7 @@ header
     right: 0
     h1
       font-size: 3em
-      line-height: 22px
+      line-height: 1
 @media (min-width: 768px)
   header .intro-text
     .intro-lead-in
@@ -581,6 +581,8 @@ ul.social-buttons
     height: 75px
     background-color: transparent
     cursor: pointer
+    @media (max-width: 480px)
+      top: -25px
     &:hover
       opacity: .3
     .lr
