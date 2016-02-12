@@ -5,8 +5,8 @@
     <description>Portfolio web</description>
     <link>/portfolio/</link>
     <atom:link href="/portfolio/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 12 Feb 2016 08:14:26 -0500</pubDate>
-    <lastBuildDate>Fri, 12 Feb 2016 08:14:26 -0500</lastBuildDate>
+    <pubDate>Fri, 12 Feb 2016 08:20:04 -0500</pubDate>
+    <lastBuildDate>Fri, 12 Feb 2016 08:20:04 -0500</lastBuildDate>
     <generator>Jekyll v3.0.0</generator>
     
       <item>
@@ -31,7 +31,7 @@
         <guid isPermaLink="true">/portfoliohttp://www.speedyrails.com/</guid>
         
         
-        <category>Integration Web, desing web, SVG aniamtion, bootstrap, media queries.</category>
+        <category>Integration Web, desing web, SVG animation, Bootstrap, Jekyll.</category>
         
       </item>
     

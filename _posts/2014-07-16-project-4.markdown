@@ -10,7 +10,7 @@ alt: Site Web speedyrails.com
 url: http://www.speedyrails.com/
 project-date: Aout 2015
 client: Entreprise Speedyrails
-category: Integration Web, desing web, SVG aniamtion, bootstrap, media queries.
+category: Integration Web, desing web, SVG animation, Bootstrap, Jekyll.
 description: Integration web du site Speedyrails.com
 img-class: speedyrails
 thumbnail-parallax: speedyrails-thumbnail-parallax.png
