@@ -184,10 +184,10 @@ header .block-intro h1 { font-size: 3em; line-height: 1; }
 @media (min-width: 768px) { header .intro-text .intro-lead-in { margin-bottom: 25px; font-size: 40px; font-style: italic; line-height: 40px; }
   header .intro-text .intro-heading { margin-bottom: 50px; text-transform: uppercase; font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 75px; font-weight: 700; line-height: 75px; } }
 section { width: 100%; padding: 0 7%; margin: 0; max-width: none; background-image: url(img/bgsection.png); background-position: top center; background-repeat: no-repeat; min-height: 100vh; }
-section h2.section-heading { margin-top: 0; margin-bottom: 15px; font-size: 40px; }
+section h2.section-heading { margin-top: 40px; margin-bottom: 15px; line-height: 2; }
 section h3.section-subheading { margin-bottom: 75px; text-transform: none; font-size: 16px; font-style: italic; font-weight: 400; }
 
-@media (min-width: 768px) { section { padding: 150px 0; } }
+@media (min-width: 768px) { section { padding: 100px 0; } }
 .service-heading { margin: 15px 0; text-transform: none; }
 
 .timeline { position: relative; padding: 0; list-style: none; }
