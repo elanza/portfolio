@@ -378,6 +378,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_includes\/icon-spoint.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_includes\/icon-spoint.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_includes\/icon-wordpress.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -548,6 +557,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/img\/about\/5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23653,
+		"inputAbbreviatedPath": "\/_site\/img\/about\/5.png",
+		"outputAbbreviatedPath": "\/_site\/img\/about\/5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/img\/bgsection.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -563,7 +583,7 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 330919,
+		"initialSize": 2.45682e+06,
 		"inputAbbreviatedPath": "\/_site\/img\/header-bg.png",
 		"outputAbbreviatedPath": "\/_site\/img\/header-bg.png",
 		"outputPathIsOutsideProject": 0,
@@ -764,11 +784,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/integration web, desing web, svg animation, bootstrap, jekyll.\/2015\/10\/11\/project-4\/index.html": {
+	"\/_site\/integration web, desing web, svg animation, bootstrap, jekyll2015\/10\/11\/project-4\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/integration web, desing web, svg animation, bootstrap, jekyll.\/2015\/10\/11\/project-4\/index.html",
+		"inputAbbreviatedPath": "\/_site\/integration web, desing web, svg animation, bootstrap, jekyll2015\/10\/11\/project-4\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -778,15 +798,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_site\/integration web\/2015\/10\/11\/project-3\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_site\/intégration web\/2015\/04\/18\/project-1\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/intégration web\/2015\/04\/18\/project-1\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -995,6 +1006,17 @@
 		"initialSize": 2731,
 		"inputAbbreviatedPath": "\/img\/about\/4.png",
 		"outputAbbreviatedPath": "\/img\/about\/4.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/about\/5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23653,
+		"inputAbbreviatedPath": "\/img\/about\/5.png",
+		"outputAbbreviatedPath": "\/img\/about\/5.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
