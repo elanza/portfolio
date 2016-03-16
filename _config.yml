@@ -2,9 +2,9 @@ url:
 baseurl: /portfolio # the subpath of your site, e.g. /blog/
 
 # Site settings
-title: Portfolio Web | ernestolanza
+title: Portfolio Web | Réalisations, sites web Montréal et Laval, Québec.
 email: ernestlanza@gmail.com
-description: "Portfolio web"
+description: "Ernesto Lanza, Intégrateur web. Réalisations, sites web Montréal et Laval, Québec."
 
 sass:
   sass_dir: assets/css
