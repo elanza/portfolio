@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Portfolio Web | Réalisations, sites web Montréal et Laval, Québec.</title>
-    <description>Ernesto Lanza, Intégrateur web. Réalisations, sites web Montréal et Laval, Québec.</description>
+    <title>Portfolio Web | Ernesto Lanza</title>
+    <description>Ernesto Lanza, portfolio, intégrateur web. Réalisations, sites web Montréal et Laval, Québec.</description>
     <link>/portfolio/</link>
     <atom:link href="/portfolio/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 15 Mar 2016 22:16:14 -0400</pubDate>
-    <lastBuildDate>Tue, 15 Mar 2016 22:16:14 -0400</lastBuildDate>
+    <pubDate>Thu, 17 Mar 2016 21:58:11 -0400</pubDate>
+    <lastBuildDate>Thu, 17 Mar 2016 21:58:11 -0400</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>

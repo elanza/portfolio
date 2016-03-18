@@ -2,14 +2,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <span class="copyright">Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}</span>
+                    <span class="copyright">Copyright &copy; {{ site.copyright }} {{ site.time | date: '%Y' }}</span>
                 </div>
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
                         {% for network in site.social %}
                         <li><a href="{{ network.url }}"><i class="fa fa-{{ network.title }}"></i></a>
-                        </li>                        
-                        {% endfor %}                        
+                        </li>
+                        {% endfor %}
                     </ul>
                 </div>
                 <!-- <div class="col-md-4">
