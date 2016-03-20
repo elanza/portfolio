@@ -1,6 +1,6 @@
 ---
 title: Portland
-subtitle: Website Integration
+subtitle: Website Intégration
 layout: default
 modal-id: 2
 date: 2016-01-16
@@ -10,8 +10,8 @@ alt: Portland Honda
 url: Site en production
 project-date: Janvier 2016
 client: Portland
-category: Integration Web ( site en production)
-description: Integration web du site Portland Street Honda pour l'entreprise Solutions Medias 360.
+category: Intégration Web
+description: Intégration web du site Portland Street Honda pour l'entreprise Solutions Medias 360
 img-class: portland
 thumbnail-parallax: portland-thumbnail-parallax.png
 ---

@@ -176,3 +176,6 @@ if(wScroll > $('.portfolio').offset().top - 350) {
 // }, function() {
 //   $(this).removeClass('animated bounceOut')
 // });
+
+
+$('ul > .list').css('background', 'red');

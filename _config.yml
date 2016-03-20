@@ -4,7 +4,7 @@ baseurl: /portfolio # the subpath of your site, e.g. /blog/
 # Site settings
 title: Portfolio Web | Ernesto Lanza
 email: ernestlanza@gmail.com
-description: "Ernesto Lanza, portfolio, intégrateur web. Réalisations, sites web Montréal et Laval, Québec."
+description: "Ernesto Lanza, portfolio, intégrateur web. Réalisations, sites web Montréal, Québec. Canada"
 copyright: "Portfolio Web"
 author: Ernesto Lanza
 
@@ -22,7 +22,7 @@ color:
 people:
 - name: Ernesto Lanza
   pic: 1
-  position: Designer-Developer (frontend)
+  position: Designer Frontend - Developer
   social:
     # - title: twitter
     #   url: #

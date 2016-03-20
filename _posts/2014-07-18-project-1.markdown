@@ -11,7 +11,7 @@ utl: http://www.glenmoreaudi.com/en/
 project-date: Avril 2015
 client: Glenmore
 category: Intégration Web
-description: Intégration web du site Glenmore Audi pour l'entreprise Solutions Medias 360.
+description: Intégration web du site Glenmore Audi pour l'entreprise Solutions Medias 360
 img-class: glenmore
 thumbnail-parallax: glenmore-thumbnail-parallax.png
 ---

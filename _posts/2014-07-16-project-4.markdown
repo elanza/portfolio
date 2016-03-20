@@ -1,6 +1,6 @@
 ---
 title: Speedyrails
-subtitle: Website Design / Integration
+subtitle: Website Design / Intégration
 layout: default
 modal-id: 4
 date: 2015-10-11
@@ -10,8 +10,8 @@ alt: Site Web speedyrails.com
 url: http://www.speedyrails.com/
 project-date: Aout 2015
 client: Entreprise Speedyrails
-category: Integration Web, desing web, SVG animation, Bootstrap, Jekyll.
-description: Integration web du site Speedyrails.com
+category: Intégration Web, desing web, SVG animation, Bootstrap, Jekyll.
+description: Intégration web du site Speedyrails.com
 img-class: speedyrails
 thumbnail-parallax: speedyrails-thumbnail-parallax.png
 ---

@@ -284,6 +284,8 @@ body { webkit-tap-highlight-color: #545151; }
 
 .bs-example-navbar-collapse-1 { background-color: #e74c3c; }
 
+.timeline:before { bottom: 60px; }
+
 .icons-tech { display: inline-block; float: left; margin: 15px 5px; }
 .icons-tech [class*="icon-"] { font-size: 30px; }
 
