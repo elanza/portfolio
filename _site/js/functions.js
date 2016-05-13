@@ -178,4 +178,14 @@ if(wScroll > $('.portfolio').offset().top - 350) {
 // });
 
 
-$('ul > .list').css('background', 'red');
+// Javascript testing Certification
+
+//E>F
+// $('ul > li').css('background', 'blue');
+// $('.col-md-3 > p').css('background','gray');
+
+// E + F
+$('.col-md-3 + .test').css('background', 'orange');
+
+
+$('ul ~ p').css('background', 'red');
