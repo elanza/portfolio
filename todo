@@ -34,3 +34,5 @@
 - browserify:
 - bower :
 - AngularJS
+- Firebase Web
+- Browsersync
