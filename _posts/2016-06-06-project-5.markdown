@@ -1,0 +1,17 @@
+---
+title: Banque du développement du Canada
+subtitle: Website Intégration
+layout: default
+modal-id: 5
+date: 2014-06-06
+img: bdc-thumbnail.png
+thumbnail: bdc-thumbnail.png
+alt: BDC 2016
+utl: http://www.bdc.ca/fr/
+project-date: Juin 2016
+client: BDC
+category: Intégration Web
+description: Intégration web du site bdc.ca pour la banque du développement du Canada
+img-class: BDC
+thumbnail-parallax: bdc-thumbnail.png
+---

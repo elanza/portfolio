@@ -1,0 +1,17 @@
+---
+title: Canadian Corporate Innovation Summit
+subtitle: Microsite Intégration
+layout: default
+modal-id: 6
+date: 2013-06-06
+img: ccis-thumbnail.png
+thumbnail: bdc-thumbnail.png
+alt: BDC 2016
+utl: http://www.bdc.ca/fr/
+project-date: Decembre 2016
+client: BDC
+category: Intégration Web
+description: Intégration web du microsite pour BDC
+img-class: BDC-CCIS
+thumbnail-parallax: ccis-thumbnail.png
+---
