@@ -12,6 +12,11 @@
                         <h3>{{ post.description }}</h3>
                         <div class="list-inline item-details">
                             <p class="date-info"><b>Date:</b> {{ post.project-date }} - <b>Client:</b> {{ post.client }} - <b>Service:</b> {{ post.category }}
+                                {% if post.siteurl %}
+                                    <strong>url:
+                                        <a href="{{ post.siteurl }}" target="_blank">{{ post.title }}</a>
+                                    </strong>
+                                {% endif %}
                             </p>
                         </div>
                         <div class="close-modal" data-dismiss="modal">

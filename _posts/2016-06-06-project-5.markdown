@@ -10,8 +10,9 @@ alt: BDC 2016
 utl: http://www.bdc.ca/fr/
 project-date: Juin 2016
 client: BDC
-category: Intégration Web
+category: Intégration web
 description: Intégration web du site bdc.ca pour la banque du développement du Canada
 img-class: BDC
 thumbnail-parallax: bdc-thumbnail.png
+siteurl: https://www.bdc.ca/en/pages/home.aspx
 ---
