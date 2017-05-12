@@ -7,7 +7,7 @@ date: 2015-04-18
 img: glenmore.png
 thumbnail: glenmore-thumbnail.png
 alt: Glenmore audi 2015
-utl: http://www.glenmoreaudi.com/en/
+url: http://www.glenmoreaudi.com/en/
 project-date: Avril 2015
 client: Glenmore
 category: Intégration Web

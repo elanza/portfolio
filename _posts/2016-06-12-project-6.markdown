@@ -7,7 +7,7 @@ date: 2013-06-06
 img: ccis-thumbnail.png
 thumbnail: bdc-thumbnail.png
 alt: BDC 2016
-utl: http://www.bdc.ca/fr/
+url: http://www.bdc.ca/fr/
 project-date: Decembre 2016
 client: BDC
 category: Intégration web

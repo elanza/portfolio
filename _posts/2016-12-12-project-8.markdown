@@ -1,0 +1,18 @@
+---
+title: Theme Chicago
+subtitle: Développement Front-end
+layout: default
+modal-id: 8
+date: 2013-06-04
+img: Chicago.png
+thumbnail: chicago-thumbnail.png
+alt: Theme Chicago
+url: http://theme-chicago.commerscale.com/
+project-date: Decembre 2016
+client: commerscale
+category: Development Front-end
+description: Développement Front-end et intégration web pour commerscale.com
+img-class: chicago
+thumbnail-parallax: chicago-thumbnail.png
+siteurl: http://theme-chicago.commerscale.com/
+---
